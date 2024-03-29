@@ -10,7 +10,7 @@
     cursor: pointer;
 }
 
-.name:hover {
+.pointer:hover {
     cursor: pointer;
 }
 
@@ -18,7 +18,7 @@
     display: flex;
     font-size: 25px;
     justify-content: space-between;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     min-height: 25vh;
     padding: 40px 150px 0px 150px;
 }
@@ -29,7 +29,7 @@
 }
 
 .frstbdy {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     font-family: Nunito;
     min-height: 70vh;
 }
@@ -45,9 +45,9 @@
     font-size: 23px;
 }
 
-.projects {
+/* .projects {
     border: 2px yellow solid;
-}
+} */
 
 .prj-heading {
     font-family: Nunito;
@@ -59,185 +59,28 @@
     min-width: 80vw;
 }
 
-.apex {
-    position: relative;
-    overflow: hidden;
-}
-
-.apex img {
-    height: 35%;
-    width: 99%;
-    padding: 10px;
-}
-
-.apex-txt {
-    width: 100%;
-    height: 100%;
-    padding: 30px 0px 0px 30px;
-    top: 0;
-    left: 0;
-    position: absolute;
-    /* background: rgba(0, 0, 0, .6); */
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
-    opacity: 0;
-    transition: 0.6s;
-}
-
-.apex-txt h1{
-    font-size: 65px;
-}
-
-.apex-txt p{
-    font-size: 30px;
-}
-
-
-.apex-txt:hover{
-    opacity: 0.6;
-}
-
 .img-pt2{
     display: flex;
     gap: 10px;
-    padding: 30px;
-}
-
-.laptopboi {
-    overflow: hidden;
-    position: relative;
-}
-
-.laptopboi img {
-    height: 97%;
-    width: 97%;
-}
-
-.lap-txt {
-    width: 100%;
-    height: 100%;
-    padding: 30px 0px 0px 30px;
-    top: 0;
-    left: 0;
-    position: absolute;
-    /* background: rgba(0, 0, 0, .6); */
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
-    opacity: 0;
-    transition: 0.6s;
-}
-
-.lap-txt h1{
-    font-size: 65px;
-}
-
-.lap-txt p{
-    font-size: 30px;
-}
-
-
-.lap-txt:hover{
-    opacity: 0.6;
-}
-
-.mental {
-    overflow: hidden;
-    position: relative;
-}
-
-.mental img {
-    height: 99%;
-    width: 100%;
-}
-
-.mental-txt {
-    width: 100%;
-    height: 100%;
-    padding: 30px 0px 0px 30px;
-    top: 0;
-    left: 0;
-    position: absolute;
-    /* background: rgba(0, 0, 0, .6); */
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
-    opacity: 0;
-    transition: 0.6s;
-}
-
-.mental-txt h1{
-    font-size: 65px;
-}
-
-.mental-txt p{
-    font-size: 30px;
-}
-
-
-.mental-txt:hover{
-    opacity: 0.6;
-}
-
-.gunfury {
-    position: relative;
-    overflow: hidden;
-}
-
-.gunfury img {
-    height: 35%;
-    width: 99%;
-    padding: 0px 5px 0px 5px;
-}
-
-.gunfury-txt {
-    width: 100%;
-    height: 100%;
-    padding: 10px 0px 0px 40px;
-    top: 0;
-    left: 0;
-    position: absolute;
-    /* background: rgba(0, 0, 0, .6); */
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
-    opacity: 0;
-    transition: 0.6s;
-}
-
-.gunfury-txt h1{
-    font-size: 65px;
-}
-
-.gunfury-txt p{
-    font-size: 30px;
-}
-
-
-.gunfury-txt:hover{
-    opacity: 0.6;
-}
-
-.unnamed {
-    position: relative;
-    overflow: hidden;
-}
-
-.unnamed img {
-    height: 35%;
-    width: 99%;
     padding: 10px;
 }
 
-.unnamed-txt {
-    width: 100%;
+.flscreen {
+    position: relative;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.flscreen img {
+    height: 35%;
+    width: 99%;
+    padding: 0px 4px 0px 8px;
+}
+
+.flscreen-txt {
+    width: 99%;
     height: 100%;
-    padding: 10px 0px 0px 30px;
+    padding: 15px 0px 0px 30px;
     top: 0;
     left: 0;
     position: absolute;
@@ -250,15 +93,87 @@
     transition: 0.6s;
 }
 
-.unnamed-txt h1{
+.flscreen-txt h1{
     font-size: 65px;
 }
 
-.unnamed-txt p{
+.flscreen-txt p{
     font-size: 30px;
 }
 
 
-.unnamed-txt:hover{
+.flscreen-txt:hover{
     opacity: 0.6;
+}
+
+
+.half {
+    overflow: hidden;
+    position: relative;
+}
+
+.half img {
+    height: 100%;
+    width: 100%;
+}
+
+.half-txt {
+    width: 100%;
+    height: 100%;
+    padding: 20px 0px 0px 20px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    /* background: rgba(0, 0, 0, .6); */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.half-txt h1{
+    font-size: 65px;
+}
+
+.half-txt p{
+    font-size: 30px;
+}
+
+
+.half-txt:hover{
+    opacity: 0.6;
+}
+
+.getintouch{
+    padding: 150px;
+    font-size: 30px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px 20px 40px;
+}
+
+.text{
+    font-size: 50px;
+    font-family: Nunito;
+}
+
+.socials{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.violet{
+    color: #8f66ff;
+    font-size: 25px;
+}
+
+.tab{
+    margin-left: 30px;
 }
