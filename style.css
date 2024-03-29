@@ -1,14 +1,26 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    background:#1e1d1d;
+    background: #1e1d1d;
     color: white;
 }
 
-.links:hover{
+.links:hover {
     cursor: pointer;
 }
 
-.name:hover{
+.name:hover {
     cursor: pointer;
 }
+
+.mynav {
+    display: flex;
+    font-size: 25px;
+    justify-content: space-between;
+    border: 2px solid red;
+    min-height: 25vh;
+    padding: 40px 150px 0px 150px;
+}
+
+
+
