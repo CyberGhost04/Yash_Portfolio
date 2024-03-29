@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    background:#1e1d1d;
+    color: white;
+}
+
+.links:hover{
+    cursor: pointer;
+}
+
+.name:hover{
+    cursor: pointer;
+}
