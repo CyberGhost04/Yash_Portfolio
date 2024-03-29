@@ -13,12 +13,12 @@
 <body style="font-family:'Nunito';">
     <nav class="mynav">
         <div class="pointer">
-            YASHMALLECHERRY
+            <a href="index.html" class="nodeco">YASH MALLECHERRY</a>
         </div>
         <div class="links">
-            <div class="pointer">Portfolio</div>
-            <div class="pointer">About</div>
-            <div class="pointer">Contact</div>
+            <div class="pointer"><a href="#prjcts" class="nodeco">Portfolio</a></div>
+            <div class="pointer"><a href="/" class="nodeco">About</a></div>
+            <div class="pointer"><a href="/" class="nodeco">Contact</a></div>
         </div>
     </nav>
     <div class="frstbdy">
@@ -35,27 +35,27 @@
             </div>
         </center>
     </div>
-    <div class="projects">
+    <div class="projects" id="prjcts">
         <center>
             <h1 class="prj-heading">Projects</h1>
         </center>
         <div class="img-container">
-            <div class="flscreen">
+            <div class="flscreen pointer">
                 <img src="./imgs/apex.png">
-                <div class="flscreen-txt">
+                <div class="flscreen-txt" onclick=clicked()>
                     <h1>Visual Brand Identity</h1>
                     <p>Where Gaming meets superior sound</p>
                 </div>
             </div>
             <div class="img-pt2">
-                <div class="half">
+                <div class="half pointer">
                     <img src="./imgs/laptopboi.png">
                     <div class="half-txt">
                         <h1>StoryBoard</h1>
                         <p>unleashing creativty, frame by frame</p>
                     </div>
                 </div>
-                <div class="half">
+                <div class="half pointer">
                     <img src="./imgs/health.png" style="margin-top: 6px;">
                     <div class="half-txt">
                         <h1>Infographic</h1>
@@ -63,21 +63,21 @@
                     </div>
                 </div>
             </div>
-            <div class="flscreen">
+            <div class="flscreen pointer">
                 <img src="./imgs/gunfury.png">
                 <div class="flscreen-txt">
                     <h1>Movie Poster</h1>
                     <p>Unveiling heroes in every glance.</p>
                 </div>
             </div>
-            <div class="flscreen">
+            <div class="flscreen pointer">
                 <img src="./imgs/unnamed.png">
                 <div class="flscreen-txt">
                     <h1>Museum Rebranding</h1>
                     <p>Rediscovering history</p>
                 </div>
             </div>
-            <div class="img-pt2">
+            <div class="img-pt2 pointer">
                 <div class="half">
                     <img src="./imgs/tourism.png">
                     <div class="half-txt">
@@ -85,7 +85,7 @@
                         <p>Inspiring stories, page by page</p>
                     </div>
                 </div>
-                <div class="half">
+                <div class="half pointer">
                     <img src="./imgs/fish.png" style="margin-top: 6px;">
                     <div class="half-txt">
                         <h1>Metamorphosis</h1>
@@ -93,7 +93,7 @@
                     </div>
                 </div>
             </div>
-            <div class="img-pt2">
+            <div class="img-pt2 pointer">
                 <div class="half">
                     <img src="./imgs/sbi.png">
                     <div class="half-txt">
@@ -101,7 +101,7 @@
                         <p>Your financial ally, just a click away.</p>
                     </div>
                 </div>
-                <div class="half">
+                <div class="half pointer">
                     <img src="./imgs/mc.png" style="margin-top: 6px;">
                     <div class="half-txt">
                         <h1>Principles of Design</h1>
@@ -125,4 +125,9 @@
         </div>
     </div>
 </body>
+<script>
+    function clicked(){
+        console.log("clicked");
+    }
+</script>
 </html>
