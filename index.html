@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./fonts/clash-display.css">
     <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
     <link rel="stylesheet" href="browser.css">
-    <title>Portfolio</title>
+    <title>Main</title>
 </head>
 
 <body style="font-family:'Nunito';">
@@ -23,7 +24,7 @@
     </nav>
     <div class="frstbdy">
         <center>
-            <h1>Welcome<br>To My Portfolio</h1>
+            <h1  style="font-family:'ClashDisplay-Variable';">Welcome<br>To My Portfolio</h1>
             <div class="intro">
                 Hi there! I'm <span style="color:#8f66ff">Yash Mallecherry</span>.<br>
                 An aspiring <span style="color:#79b1e8;">UI/UX Designer</span> focused on <span
@@ -42,10 +43,12 @@
         <div class="img-container">
             <div class="flscreen pointer">
                 <img src="./imgs/apex.png">
-                <div class="flscreen-txt" onclick=clicked()>
-                    <h1>Visual Brand Identity</h1>
-                    <p>Where Gaming meets superior sound</p>
-                </div>
+                <a href="index.html">
+                    <div class="flscreen-txt" onclick=clicked()>
+                        <h1>Visual Brand Identity</h1>
+                        <p>Where Gaming meets superior sound</p>
+                    </div>
+                </a>
             </div>
             <div class="img-pt2">
                 <div class="half pointer">
@@ -112,9 +115,9 @@
         </div>
     </div>
     <div class="getintouch">
-       <center>
+        <center>
             <h1>Get in touch<br>-----></h1>
-       </center>
+        </center>
     </div>
     <div class="footer">
         <div class="text">Follow my Socials</div>
@@ -126,8 +129,9 @@
     </div>
 </body>
 <script>
-    function clicked(){
+    function clicked() {
         console.log("clicked");
     }
 </script>
+
 </html>

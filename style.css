@@ -181,3 +181,46 @@
 .nodeco {
     text-decoration: none;
 }
+
+.tab-2{
+    margin-left: 100px;
+}
+
+.pimg1 img{
+    height: 900px;
+    width: 900px;
+}
+
+.pimg2 img{
+    height: 700px;
+    width: 700px;
+}
+
+#image-container {
+    position: relative;
+    width: 99vw;
+    height: 90vh;
+    overflow: hidden;
+}
+.nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    /* background-color: rgba(0,0,0,0.5); */
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 50px;
+}
+#prev-button {
+    left: 10px;
+}
+#next-button {
+    right: 10px;
+}
+
+.abvimg img{
+    height: 200px;
+    width: 200px;
+}
