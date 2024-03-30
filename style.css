@@ -207,17 +207,19 @@
     top: 50%;
     transform: translateY(-50%);
     /* background-color: rgba(0,0,0,0.5); */
+    border: black solid;
+    border-radius: 100%;
     color: white;
     border: none;
     cursor: pointer;
-    padding: 10px;
+    padding: 10px 20px 10px 20px;
     font-size: 50px;
 }
 #prev-button {
-    left: 10px;
+    left: 45px;
 }
 #next-button {
-    right: 10px;
+    right: -20px;
 }
 
 .abvimg img{
