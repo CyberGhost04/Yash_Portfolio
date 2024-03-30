@@ -5,9 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./fonts/clash-display.css">
     <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
     <link rel="stylesheet" href="browser.css">
-    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+    <title>StoryBoard</title>
 </head>
 
 <body style="font-family:'Nunito';">
@@ -16,19 +20,15 @@
             <a href="index.html" class="nodeco">YASH MALLECHERRY</a>
         </div>
         <div class="links">
-            <div class="pointer"><a href="./index.html#prjcts" class="nodeco">Portfolio</a></div>
+            <div class="pointer"><a href="index.html#prjcts" class="nodeco">Portfolio</a></div>
             <div class="pointer"><a href="/" class="nodeco">About</a></div>
             <div class="pointer"><a href="/" class="nodeco">Contact</a></div>
         </div>
     </nav>
     <div class="bdy" style="display: flex; flex-direction: column;">
-        <div style="padding-left: 140px; font-size: 100px;" class="play-regular">01<span class="tab-2"></span>Visual Brand Identity</div>
-        <div style="display: flex; padding-left: 140px; padding-top: 100px;">
-            <div><img src="./imgs/Artboard 2@4x.png" alt="" style="height: 90%; width: 87%;"></div>
-            <div><img src="./imgs/Artboard 3@4x.png" alt="" style="height: 90%; width: 87%;"></div>
-        </div>
-        <div id="image-container">
-            <img id="carousel-image" src="./imgs/Artboard 6@4x.png" width="87%" height="100%" style="padding-left: 140px;">
+        <div style="padding-left: 140px; font-size: 100px;" class="play-regular">05<span class="tab-2"></span>Museum Rebranding</div>
+        <div id="image-container" style="padding-top: 100px; min-height: 100vh;">
+            <img id="carousel-image" src="./imgs/Artboard 13@4x.png" width="50%" height="100%" style="padding-left: 440px;">
             <button id="prev-button" class="nav-button" style="margin-left: 120px;"><</button>
             <button id="next-button" class="nav-button" style="margin-right: 120px;">></button>
         </div>
@@ -44,14 +44,16 @@
         </div>
         <div style="padding: 0px 120px 220px 120px; font-size: 30px;">
             <center>
-                Apexx is a gaming brand that embodies speed, agility, and the relentless pursuit
-                of victory. Inspired by the cheetah, its visual identity is marked by a dynamic 'A'
-                logo and a bold splash of red attire. Setting itself apart from competitors like
-                HyperX, Logitech, Red Gear, and Corsair, Apexx promises unparalleled gaming
-                experiences through its innovative products and fierce dedication to gaming
-                excellence. With precision-engineered headsets and a commitment to pushing
-                boundaries, Apexx is more than just a brand—it's a lifestyle choice for gamers
-                seeking to conquer virtual realms.
+                In the museum rebranding project, I transformed an unknown museum located in
+                Satara into a digital powerhouse. By creating a user-friendly website, I effectively
+                showcased the museum's extensive collection of articles and artwork to a wider
+                audience. To enhance visitor experience and create lasting memories, I
+                introduced a unique feature: customized digital receipts that visitors could
+                keep as mementos of their visit. Additionally, I designed intuitive gallery icons
+                for each exhibition, ensuring convenient navigation and understanding of the
+                museum's diverse offerings. Through these strategic initiatives, the museum
+                underwent a successful rebranding, elevating its profile and accessibility in the
+                cultural landscape.
             </center>
         </div>
     </div>
@@ -64,7 +66,7 @@
         </div>
     </div>
     <script>
-        var images = ["./imgs/Artboard 6@4x.png", "./imgs/Artboard 5@4x.png", "./imgs/Artboard 4@4x.png"];
+        var images = ["./imgs/Artboard 13@4x.png", "./imgs/Artboard 1@4x.png"];
         var index = 0;
 
         document.getElementById("prev-button").addEventListener("click", function () {
