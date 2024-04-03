@@ -159,8 +159,9 @@
 }
 
 .text{
-    font-size: 50px;
+    font-size: 40px;
     font-family: Nunito;
+    padding-left: 70px;
 }
 
 .socials{
