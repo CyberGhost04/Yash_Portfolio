@@ -251,3 +251,7 @@
 .pointer a:hover{
     color: rgb(75,131,151);
 }
+
+.pointer a h1:hover{
+    color: rgb(75,131,151);
+}
