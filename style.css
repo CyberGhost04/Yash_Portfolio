@@ -247,3 +247,7 @@
     color: white;
     border: none;
 }
+
+.pointer a:hover{
+    color: rgb(75,131,151);
+}
